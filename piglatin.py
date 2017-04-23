@@ -1,8 +1,4 @@
 # Pig Latin translator
-
-#str = 'What the fuck did you just fucking say about me, you little bitch?'
-str = 'status update spread virally across the social networking site, with many Facebook users mocking the boy with photoshopped images for making boastful claims like having'
-
 vowels = ['a', 'e', 'i', 'o', 'u']
 
 def translateBody(text):
