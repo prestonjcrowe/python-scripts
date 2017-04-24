@@ -1,5 +1,3 @@
-import math
-
 # Provides functions to calculate Riemann's sums using either the 
 # midpoint, trapezoidal, or Simpson's rule. Each function accepts
 # a lower bound [a], upper bound [b], number of intervals [n], as
@@ -7,6 +5,7 @@ import math
 # Define the function you'd like to find a Riemann's sum for in
 # myFunc(x) and then call the respective sum function
 # (if no constant multiple, pass 1)
+import math
 
 def myFunc(x):	
 	return (math.sqrt(1+(9*x)**4))
