@@ -5,6 +5,7 @@
 # Define the function you'd like to find a Riemann's sum for in
 # myFunc(x) and then call the respective sum function
 # (if no constant multiple, pass 1)
+
 import math
 
 def myFunc(x):	
