@@ -17,7 +17,6 @@ soup = BeautifulSoup(r, 'html.parser')
 while(currentPage < pageLimit):
 	for link in soup.find_all('img'): 
 		each = link.get('src') 
-
 		print(each)
 		#for images up to 600 x 600, try:
 		#print(each.replace('.240.', '.600.', 1))
